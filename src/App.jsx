@@ -3,6 +3,7 @@ import './App.css'
 import Hero from './Compononts/Hero'
 import HowweWoks from './Compononts/HowWeWorks'
 import HowItWorks from './Compononts/HowItWorks'
+import Category from './Compononts/Category'
 
 function App() {
   const [name,setName] = useState("")
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <Hero/>
-
+      <Category/>
       <HowItWorks/>
     </>
   )
