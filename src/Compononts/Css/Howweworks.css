@@ -1,0 +1,44 @@
+.howwework{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.howwework-container{
+    width: 90%;
+}
+.howwework-container h1{
+    font-size: 40px;
+    font-weight: bolder;
+}.howwework-container h5{
+    margin-top: 10px;
+    line-height: 20px;
+}
+.howwework-content{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+.work .top{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+hr{
+    width: 150px;
+    margin-top: 30px;
+    border: 2px solid #009dff;
+}
+.sl{
+    color: #009dff;
+    font-size: 60px;
+}
+.bottom{
+    font-size: 18px;
+    font-weight: bolder;
+}
