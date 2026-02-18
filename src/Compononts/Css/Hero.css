@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(252, 252, 242);
 }
 .hero-container{
     width: 97%;
@@ -35,6 +36,7 @@
     justify-content:space-between;
     top: 20px;
     z-index: 3;
+    height: fit-content;
 }
 .nav-middle{
     display: flex;
@@ -44,12 +46,14 @@
     border: 1px solid rgb(43, 43, 43);
     border-radius: 20px;
     background-color: rgba(52, 52, 52, 0.188);
-    padding: 3px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.268);
+    height: 40px;
 }
 .nav-middle h5{
     border-radius: 20px;
     padding: 6px 20px;
     font-size: 13px;
+    margin-bottom: 0;
 }
 .nav-right h5{
     padding: 10px 30px;
@@ -60,7 +64,7 @@
 .hero-content{
     position: absolute;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.299);
+    background-color: rgba(0, 0, 0, 0.089);
     height: 100%;
     z-index: 2;
     display: flex;
